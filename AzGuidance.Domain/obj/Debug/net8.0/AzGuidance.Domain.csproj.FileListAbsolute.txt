@@ -1,0 +1,11 @@
+C:\Users\1062683\source\repos\case-azguidance\AzGuidance.Domain\bin\Debug\net8.0\AzGuidance.Domain.deps.json
+C:\Users\1062683\source\repos\case-azguidance\AzGuidance.Domain\bin\Debug\net8.0\AzGuidance.Domain.dll
+C:\Users\1062683\source\repos\case-azguidance\AzGuidance.Domain\bin\Debug\net8.0\AzGuidance.Domain.pdb
+C:\Users\1062683\source\repos\case-azguidance\AzGuidance.Domain\obj\Debug\net8.0\AzGuidance.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1062683\source\repos\case-azguidance\AzGuidance.Domain\obj\Debug\net8.0\AzGuidance.Domain.AssemblyInfoInputs.cache
+C:\Users\1062683\source\repos\case-azguidance\AzGuidance.Domain\obj\Debug\net8.0\AzGuidance.Domain.AssemblyInfo.cs
+C:\Users\1062683\source\repos\case-azguidance\AzGuidance.Domain\obj\Debug\net8.0\AzGuidance.Domain.csproj.CoreCompileInputs.cache
+C:\Users\1062683\source\repos\case-azguidance\AzGuidance.Domain\obj\Debug\net8.0\AzGuidance.Domain.dll
+C:\Users\1062683\source\repos\case-azguidance\AzGuidance.Domain\obj\Debug\net8.0\refint\AzGuidance.Domain.dll
+C:\Users\1062683\source\repos\case-azguidance\AzGuidance.Domain\obj\Debug\net8.0\AzGuidance.Domain.pdb
+C:\Users\1062683\source\repos\case-azguidance\AzGuidance.Domain\obj\Debug\net8.0\ref\AzGuidance.Domain.dll

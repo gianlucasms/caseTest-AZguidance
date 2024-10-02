@@ -1,0 +1,30 @@
+CREATE TABLE Cliente (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Nome NVARCHAR(100) NOT NULL,
+    Email NVARCHAR(100) NOT NULL,
+    Telefone NVARCHAR(15) NULL,
+    DataCadastro DATETIME DEFAULT GETDATE()
+);
+
+CREATE TABLE Produto (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Nome NVARCHAR(100) NOT NULL,
+    Preco DECIMAL(18, 2) NOT NULL,
+    Estoque INT NOT NULL
+);
+
+CREATE TABLE Pedido (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    ClienteId INT NOT NULL,
+    DataPedido DATETIME DEFAULT GETDATE(),
+    FOREIGN KEY (ClienteId) REFERENCES Cliente(Id)
+);
+
+CREATE TABLE ItemPedido (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    PedidoId INT NOT NULL,
+    ProdutoId INT NOT NULL,
+    Quantidade INT NOT NULL,
+    FOREIGN KEY (PedidoId) REFERENCES Pedido(Id),
+    FOREIGN KEY (ProdutoId) REFERENCES Produto(Id)
+);
